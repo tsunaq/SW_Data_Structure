@@ -16,7 +16,8 @@
   - 기타 Error Message  
   
 ## 3. 코드
-<pre><code>#include <stdio.h>
+<pre><code>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
