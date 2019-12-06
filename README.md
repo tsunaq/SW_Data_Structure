@@ -14,8 +14,11 @@
   - 피연산자가 연속해서 2개 등장  
   - 연산자가 연속해서 2개 등장  
   - 기타 Error Message  
-  
-## 3. 코드
+
+## 3. 결과
+![4](https://user-images.githubusercontent.com/58457978/70286884-425a9f00-1810-11ea-8910-db97453990cf.png)
+
+## 4. 코드
 <pre><code>#pragma warning(disable:4996)
 
 #include <stdio.h>
@@ -247,7 +250,3 @@ int main(void)
 	puts(str2);
 	return 0;
 }
-<\pre><\code>
-
-## 4. 결과
-![4](https://user-images.githubusercontent.com/58457978/70286884-425a9f00-1810-11ea-8910-db97453990cf.png)
