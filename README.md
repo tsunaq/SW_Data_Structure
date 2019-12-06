@@ -247,6 +247,7 @@ int main(void)
 	puts(str2);
 	return 0;
 }
+<\pre><\code>
 
 ## 4. 결과
 ![4](https://user-images.githubusercontent.com/58457978/70286884-425a9f00-1810-11ea-8910-db97453990cf.png)
