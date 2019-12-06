@@ -181,10 +181,9 @@ void infix_to_postfix(char *exp)
 	char str1[MAX_STACK_SIZE] = "";
 	int len = strlen(exp);
 	StackType s;
-
-
-	init(&s);                                       // 스택 초기화
-	for (i = 0; i<len; i++){
+	//
+ 	init(&s); // 스택 초기화
+	for (i = 0; i < len; i++) {
 		ch = exp[i];
 		// 연산자이면
 		switch (ch){
@@ -225,41 +224,26 @@ void infix_to_postfix(char *exp)
 int main(void)
 {
 	int i = 0, a = 0, num = 0;
-
+	//
 	gets(string);
 	infix_to_postfix(string);
-
 	printf("\n");
-
 	puts(str2);
-
 	spacing_first(string);
-
 	token = strtok(string, del2);
-
 	printf("\n");
-
 	while (token != NULL) {
 		str3[i++] = token;
 		printf("%s ", token);
 		token = strtok(NULL, del2);
 		num++;
 	}
-
-	
 	for (a = 0; a < i; a++)
 	{
 		number[a] = strlen(str3[a]);
 	}
-
 	spacing_second();
-
-
 	printf("\n \n");
-
-	
 	puts(str2);
-
-
 	return 0;
 }<\code><\pre>
