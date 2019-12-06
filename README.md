@@ -246,4 +246,4 @@ int main(void)
 	printf("\n \n");
 	puts(str2);
 	return 0;
-}<\code><\pre>
+}
